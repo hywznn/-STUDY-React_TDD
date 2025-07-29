@@ -1,0 +1,208 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Counter /> > matches snapshot 1`] = `
+<div>
+  <div
+    class="counter"
+  >
+    <h2
+      data-testid="counter-title"
+    >
+      Counter Value: 
+      0
+    </h2>
+    <div
+      class="counter-controls"
+    >
+      <button
+        aria-label="decrement"
+      >
+        -
+      </button>
+      <button
+        aria-label="increment"
+      >
+        +
+      </button>
+      <button
+        aria-label="reset"
+      >
+        Reset
+      </button>
+    </div>
+    <div
+      class="custom-input"
+    >
+      <label
+        for="custom-value"
+      >
+        Set custom value:
+      </label>
+      <input
+        id="custom-value"
+        placeholder="Enter a number"
+        type="number"
+        value=""
+      />
+      <button>
+        Set
+      </button>
+    </div>
+    <div
+      class="counter-info"
+    >
+      <p>
+        Current count: 
+        <span
+          data-testid="count-display"
+        >
+          0
+        </span>
+      </p>
+      <p
+        class="zero"
+      >
+        Count is zero!
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Counter /> > matches snapshot after increment 1`] = `
+<div>
+  <div
+    class="counter"
+  >
+    <h2
+      data-testid="counter-title"
+    >
+      Counter Value: 
+      1
+    </h2>
+    <div
+      class="counter-controls"
+    >
+      <button
+        aria-label="decrement"
+      >
+        -
+      </button>
+      <button
+        aria-label="increment"
+      >
+        +
+      </button>
+      <button
+        aria-label="reset"
+      >
+        Reset
+      </button>
+    </div>
+    <div
+      class="custom-input"
+    >
+      <label
+        for="custom-value"
+      >
+        Set custom value:
+      </label>
+      <input
+        id="custom-value"
+        placeholder="Enter a number"
+        type="number"
+        value=""
+      />
+      <button>
+        Set
+      </button>
+    </div>
+    <div
+      class="counter-info"
+    >
+      <p>
+        Current count: 
+        <span
+          data-testid="count-display"
+        >
+          1
+        </span>
+      </p>
+      <p
+        class="positive"
+      >
+        Count is positive!
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Counter /> > matches snapshot with custom value 1`] = `
+<div>
+  <div
+    class="counter"
+  >
+    <h2
+      data-testid="counter-title"
+    >
+      Counter Value: 
+      42
+    </h2>
+    <div
+      class="counter-controls"
+    >
+      <button
+        aria-label="decrement"
+      >
+        -
+      </button>
+      <button
+        aria-label="increment"
+      >
+        +
+      </button>
+      <button
+        aria-label="reset"
+      >
+        Reset
+      </button>
+    </div>
+    <div
+      class="custom-input"
+    >
+      <label
+        for="custom-value"
+      >
+        Set custom value:
+      </label>
+      <input
+        id="custom-value"
+        placeholder="Enter a number"
+        type="number"
+        value=""
+      />
+      <button>
+        Set
+      </button>
+    </div>
+    <div
+      class="counter-info"
+    >
+      <p>
+        Current count: 
+        <span
+          data-testid="count-display"
+        >
+          42
+        </span>
+      </p>
+      <p
+        class="positive"
+      >
+        Count is positive!
+      </p>
+    </div>
+  </div>
+</div>
+`;

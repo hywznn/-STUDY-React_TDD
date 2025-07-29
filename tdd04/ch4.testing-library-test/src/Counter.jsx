@@ -17,7 +17,7 @@ function Counter() {
 
   return (
     <div className="counter">
-      <h2 data-testid="counter-title">Counter: {count}</h2>
+      <h2 data-testid="counter-title">Counter Value: {count}</h2>
 
       <div className="counter-controls">
         <button onClick={decrement} aria-label="decrement">
