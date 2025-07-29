@@ -2,7 +2,7 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import Styled from 'styled-components';
 
-import { InputContainer } from 'Components';
+import { InputContainer } from '../../Components';
 
 const Container = Styled.div`
   display: flex;

@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import 'jest-styled-components';
 
-import { ToDoListProvider } from 'Contexts';
+import { ToDoListProvider } from '../../Contexts';
 import { InputContainer } from './index';
 
 describe('<InputContainer />', () => {
@@ -49,7 +49,7 @@ describe('<InputContainer />', () => {
   });
 
   it('calls the onAdd function when the user clicks Add button', () => {
-    const handleClick = jest.fn();
+    const handleClick = vi.fn();
     render(<InputContainer onAdd={handleClick} />);
 
     const input = screen.getByPlaceholderText('할 일을 입력해 주세요');

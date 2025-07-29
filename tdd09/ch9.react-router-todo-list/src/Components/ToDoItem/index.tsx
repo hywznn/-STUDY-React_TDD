@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Styled from 'styled-components';
 
-import { Button } from 'Components/Button';
+import { Button } from '../Button';
 
 const Container = Styled.div`
   display: flex;

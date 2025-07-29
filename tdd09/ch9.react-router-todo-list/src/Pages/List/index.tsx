@@ -2,7 +2,7 @@ import React from 'react';
 import Styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import { ToDoList } from 'Components';
+import { ToDoList } from '../../Components';
 
 const Container = Styled.div`
   display: flex;

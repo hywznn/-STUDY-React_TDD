@@ -1,8 +1,8 @@
 import React from 'react';
 import Styled from 'styled-components';
 
-import { ToDoListProvider } from 'Contexts';
-import { InputContainer, ToDoList } from 'Components';
+import { ToDoListProvider } from './Contexts';
+import { InputContainer, ToDoList } from './Components';
 
 const Container = Styled.div`
   min-height: 100vh;

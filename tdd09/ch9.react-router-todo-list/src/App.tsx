@@ -2,9 +2,9 @@ import React from 'react';
 import Styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
-import { ToDoListProvider } from 'Contexts';
-import { List, Add, Detail, NotFound } from 'Pages';
-import { PageHeader } from 'Components';
+import { ToDoListProvider } from './Contexts';
+import { List, Add, Detail, NotFound } from './Pages';
+import { PageHeader } from './Components';
 
 const Container = Styled.div`
   min-height: 100vh;

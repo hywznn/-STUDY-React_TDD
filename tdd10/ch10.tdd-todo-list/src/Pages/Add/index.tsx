@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Styled from 'styled-components';
 import { useHistory } from 'react-router-dom';
 
-import { Button } from 'Components';
+import { Button } from '../../Components';
 
 const Container = Styled.div`
   display: flex;

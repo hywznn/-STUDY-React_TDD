@@ -1,9 +1,9 @@
 import React, { useState, useContext } from 'react';
 import Styled from 'styled-components';
 
-import { ToDoListContext } from 'Contexts';
-import { Button } from 'Components/Button';
-import { Input } from 'Components/Input';
+import { ToDoListContext } from '../../Contexts';
+import { Button } from '../Button';
+import { Input } from '../Input';
 
 const Container = Styled.div`
   display: flex;

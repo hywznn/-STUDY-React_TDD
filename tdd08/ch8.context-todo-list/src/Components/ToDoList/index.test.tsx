@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import 'jest-styled-components';
 
-import { ToDoListProvider } from 'Contexts';
+import { ToDoListProvider } from '../../Contexts';
 import { ToDoList } from './index';
 
 describe('<ToDoList />', () => {

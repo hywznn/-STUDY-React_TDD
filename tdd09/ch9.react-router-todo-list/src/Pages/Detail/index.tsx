@@ -2,8 +2,8 @@ import React, { useContext } from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 import Styled from 'styled-components';
 
-import { ToDoListContext } from 'Contexts';
-import { Button } from 'Components';
+import { ToDoListContext } from '../../Contexts';
+import { Button } from '../../Components';
 
 const Container = Styled.div`
   display: flex;

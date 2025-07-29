@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import Styled from 'styled-components';
 
-import { ToDoListContext } from 'Contexts';
-import { ToDoItem } from 'Components/ToDoItem';
+import { ToDoListContext } from '../../Contexts';
+import { ToDoItem } from '../ToDoItem';
 
 const Container = Styled.div`
   min-width: 350px;

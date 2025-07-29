@@ -2,8 +2,8 @@ import React from 'react';
 import Styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
-import { PageHeader } from 'Components';
-import { List, Add, Detail, NotFound } from 'Pages';
+import { PageHeader } from './Components';
+import { List, Add, Detail, NotFound } from './Pages';
 
 const Container = Styled.div`
   min-height: 100vh;

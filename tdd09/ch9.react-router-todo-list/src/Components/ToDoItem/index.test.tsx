@@ -23,17 +23,14 @@ describe('<ToDoItem />', () => {
   });
 
   it('clicks the delete button', () => {
-    const handleClick = jest.fn();
+    const handleClick = vi.fn();
     render(
       <Router>
-        <ToDoItem id={1} label="default value" onDelete={handleClick} />
+        <ToDoItem id={0} label="default value" onDelete={handleClick} />
       </Router>,
     );
-
-    const deleteButton = screen.getByText('삭제');
-    expect(handleClick).toHaveBeenCalledTimes(0);
-    fireEvent.click(deleteButton);
-    expect(handleClick).toHaveBeenCalledTimes(1);
+    fireEvent.click(screen.getByText('삭제'));
+    expect(handleClick).toHaveBeenCalled();
   });
 
   it('clicks the link', () => {

@@ -34,7 +34,7 @@ describe('<Button />', () => {
   });
 
   it('clicks the button', () => {
-    const handleClick = jest.fn();
+    const handleClick = vi.fn();
     render(<Button label="Button Test" onClick={handleClick} />);
 
     const label = screen.getByText('Button Test');

@@ -17,7 +17,7 @@ describe('<ToDoItem />', () => {
   });
 
   it('clicks the delete button', () => {
-    const handleClick = jest.fn();
+    const handleClick = vi.fn();
     render(<ToDoItem label="default value" onDelete={handleClick} />);
 
     const deleteButton = screen.getByText('삭제');

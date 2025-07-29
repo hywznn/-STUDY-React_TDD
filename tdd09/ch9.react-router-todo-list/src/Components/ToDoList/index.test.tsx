@@ -3,7 +3,7 @@ import { BrowserRouter as Router, useLocation } from 'react-router-dom';
 import { render, screen, fireEvent } from '@testing-library/react';
 import 'jest-styled-components';
 
-import { ToDoListProvider } from 'Contexts';
+import { ToDoListProvider } from '../../Contexts';
 import { ToDoList } from './index';
 
 describe('<ToDoList />', () => {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import type { IScriptSnapshot } from 'typescript';
 import Styled from 'styled-components';
 
-import { Button, Input, ToDoItem } from 'Components';
+import { Button, Input, ToDoItem } from './Components';
 
 const Container = Styled.div`
   min-height: 100vh;
